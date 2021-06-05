@@ -7,7 +7,7 @@
       </label><br>
       <label>
          Долари:
-      <input type="number" v-model="num2">
+      <input type="number" v-model="num2">    Долари тільки виводяться, тому достатньо односторонньої при"вязки даних
       </label><br>
       <button @click="convert">
          Перевести!
