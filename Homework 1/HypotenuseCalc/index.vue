@@ -13,7 +13,7 @@
       </button> <br>
       <label>
          Hypotenuse
-         <input type="text" v-model="resHyp">
+         <input type="text" v-model="resHyp">     Ви тільки виводите гіпотенузу, тому достаньо односторонньої привязки даних <input type="text" :value="resHyp"> 
       </label>
    </div>
 </template>
